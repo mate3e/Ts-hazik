@@ -11,14 +11,14 @@ class book {
     }
 }
 
-interface ILibrary {
+export interface ILibrary {
     addBook(book: book): void;
     removeBook(id: number): void;
     findBookById(id: number): book;
     listAllBooks(): book[];
 }
 
-export class library {
+class library {
     books: book[] = [];
     addBook(book: book) {
         this.books.push(book);
