@@ -36,7 +36,7 @@ class library {
         return this.books;
     }
 }
-/* test */
+
 
 class user {
     name: string;
