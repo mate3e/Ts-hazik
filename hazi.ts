@@ -18,7 +18,7 @@ interface ILibrary {
     listAllBooks(): book[];
 }
 
-class library {
+export class library {
     books: book[] = [];
     addBook(book: book) {
         this.books.push(book);
